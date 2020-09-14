@@ -1,0 +1,50 @@
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+td { 
+  text-align: left;
+  vertical-align: top;
+  width: 20% ;
+}
+
+p {
+  margin: 35px;
+}
+
+header {
+    background-color: LightBlue;
+}
+
+header h1 {
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+head {
+  
+  background-color:  WhiteSmoke;
+ }
+
+H1 { 
+  text-align: center;
+  background-color: #F5F5DC;
+ }
+H2 { 
+  text-align: center;
+  background-color: #F5F5DC;
+ }
+H3 { 
+  text-align: center;
+  background-color: #F5F5DC;
+ }
+
+body {
+  background-color: #DEB887;
+}
+

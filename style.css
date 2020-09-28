@@ -1,6 +1,7 @@
 table {
-  table-layout: fixed ;
+  table-layout: fixed;
   width: 100% ;
+  padding-top: 50px;
 }
 
 td { 
@@ -13,14 +14,21 @@ p {
   margin: 35px;
 }
 
-header {
-    background-color: LightBlue;
+#container {
+    background-color: #cbd18f;
+}
+
+#header {
+    background-color: #cbd18f;
 }
 
 #footer {
-  margin-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif, Verdana, Arial, sans-serif;
+  background-color: #AD974F;
+  font-size: 125%;
 }
 
 header h1 {
@@ -34,32 +42,39 @@ html, body {
 
 a:link {
   text-decoration: none;
+  font-family: 'Times New Roman', Times, serif, Verdana, Arial, sans-serif;
+  padding-bottom: 15px;
 }
 a:hover {
-  color: hotpink;
+  color: black;
   text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif, Verdana, Arial, sans-serif;
 }
 
 head {
-  
-  background-color:  WhiteSmoke;
+  background-color: #cbd18f;
+  font-family: 'Lucidia Bright',Times, serif, Verdana, Arial;
  }
 
-H1 { 
+h1 { 
   text-align: center;
-  background-color: #F5F5DC;
+font-family: 'Lucidia Bright',Times, serif, Verdana, Arial;
  }
-H2 { 
+
+h2 { 
   text-align: center;
-  background-color: #F5F5DC;
+  background-color: #cbd18f;
+  font-family: 'Lucidia Bright',Times, serif, Verdana, Arial;
  }
-H3 { 
+
+h3 { 
   text-align: center;
-  background-color: #F5F5DC;
+  background-color: #cbd18f;
+  font-family: 'Lucidia Bright',Times, serif, Verdana, Arial;
  }
 
 body {
-  background-color: #DEB887;
+  background-color: #fbe6ad;
 }
 
 * {box-sizing:border-box}

@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
  <head>
- <!--ASSIGNMENT 4.3 -->
+ <!--ASSIGNMENT 4.3 through to 7.3 as of 2020.09.27-->
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Eric Sommers</title>
     <meta name="description"
@@ -25,13 +25,32 @@
 
 <div id="container">
 
-<h1><b>A BIOGRAPHY OF <br><i>LIEN SOMMERS</i></b></h1>
-<h3>BY</h3>
-<h2>ERIC SOMMERS</h2>
-<hr>
-<br>
+  <div id="header">
+    <h1><b>A BIOGRAPHY OF <br><i>LIEN SOMMERS</i></b></h1>
+    <h3>BY</h3>
+    <h2>ERIC SOMMERS</h2>
+    <br>
+    <hr>
+  </div>
 </head>
 
+<!--THE VISION for the body of this web page is:
+1.  Illustrate categorical textual content, horizontally across the top of the body.
+2.  Offer appropriate images that "visually" supplement the textual content.
+3.  Gradually evolve the color palette to something that elicits warmth and affection.
+4.  Supplement the core content with short stories or verbiage that speaks to the core values of the biography's subject.
+5.  Stretch goal:  Implement a carousel of pictures in instead of the gallery view.  
+    Perhaps the carousels would be categorical:  One for each of Family, Local Travels, Home and Roots.
+-->
+
+<!--UPCOMING CHANGES
+1.  Fix <p> impact to top align; tags were misplaced (outside of <tr>, inadvertently) for the last two <tr> and therefore had the content "jagged" and not aligned with the 
+    content from the first four content categories.
+2.  Making a practice of adding comments to the code, speaking to the "intention" of the code or layout.
+3.  Fix header coloring effect.
+4.  Implement smart stack fonts.
+5.  Finalize/Change color palette.
+-->
 <body>
 <table>
   <tr>
@@ -43,15 +62,43 @@
     <th>HOBBIES</th>
   </tr>
   <tr>
-    <td><p>Lien grew in the Vung Tau province of Vietnam, as one of eleven children.  Her upbringing was modest, but full of family love.  Some of her earliest memories were of helping her mother sell soup to the neighbors and passersby.</p></td>
-    <td><p>In elementary school and middle school, Lien excelled in academics, and was a promising badminton player.  It was her successes that allowed her to be accepted to a university of economics, in Ho Chi Minh City.  Although needing to balance schoolwork and the part-time to pay for her education, she graduated in 4 years with degrees in both economics and international trade.
-</p></td>
-    <td><p>After working in international trade for 10 years, Lien had opportunities to move to either Australia, where an older sister lives, or to the United States where her older brother lives.  She opted for the latter.
-</p></td>
-    <td><p>After moving to the United States in 2012, she eventually met her husband-to-be, Eric Sommers, and they raise three children together.  They currently live in Omaha, NE and call that home.  Is it this family life that display well her greatest characteristics:  She is kind-hearted, loving, patient, and energetic.  The members of her family are benefactors of all these wonderful traits.
-</p></td>
-    <p><td>Despite her degrees from the Vietnamese university, Lien has embarked on a career of esthetics, specifically with a focus in permanent makeup and eyelashes.  As she works to grow that business, she works also at a local nail salon.</td></p>
-    <p><td>Lien is an avid traveler, and has traveled to Thailand, China, Japan, and the United States.  Within the United States, her favorite destinations include the Grand Canyon, New York City, Baltimore, Philadelphia, and sunny California.  Next up are trips to both Jamaica and Glacier National Park.</td></p>
+    <td>
+      <p>Lien grew in the Vung Tau province of Vietnam, as one of eleven children.  
+      Her upbringing was modest, but full of family love.  Some of her earliest memories 
+      were of helping her mother sell soup to the neighbors and passersby.
+      </p>
+    </td>
+    <td>
+      <p>In elementary school and middle school, Lien excelled in academics, and was a promising badminton player.  
+        It was her successes that allowed her to be accepted to a university of economics, in Ho Chi Minh City.  
+        Although needing to balance schoolwork and the part-time to pay for her education, she graduated in 4 years 
+        with degrees in both economics and international trade.
+      </p>
+    </td>
+    <td>
+      <p>After working in international trade for 10 years, Lien had opportunities to move to either Australia, 
+        where an older sister lives, or to the United States where her older brother lives.  She opted for the latter.
+      </p>
+    </td>
+    <td>
+      <p>After moving to the United States in 2012, she eventually met her husband-to-be, Eric Sommers, 
+        and they raise three children together.  They currently live in Omaha, NE and call that home.  
+        Is it this family life that display well her greatest characteristics:  She is kind-hearted, loving, patient, and energetic.  
+        The members of her family are benefactors of all these wonderful traits.
+      </p>
+    </td>
+    <td>
+      <p>Despite her degrees from the Vietnamese university, Lien has embarked on a career of esthetics, 
+        specifically with a focus in permanent makeup and eyelashes.  As she works to grow that business, 
+        she works also at a local nail salon.
+      </p>
+    </td>
+    <td>
+      <p>Lien is an avid traveler, and has traveled to Thailand, China, Japan, and the United States.  
+        Within the United States, her favorite destinations include the Grand Canyon, New York City, Baltimore, 
+        Philadelphia, and sunny California.  Next up are trips to both Jamaica and Glacier National Park.
+      </p>
+    </td>
   </tr>
 
 </table>
@@ -68,7 +115,7 @@
       <div class="desc">Grand Canyon</div>
     </div></th>
     <th><div class="gallery">
-        <img src="Family.jpg" alt="images/Vietnam.jpg" width="600" height="400">
+        <img src="images/Family.jpg" alt="images/Vietnam.jpg" width="600" height="400">
       <div class="desc">Family</div>
     </div></th>
 </table>
@@ -79,7 +126,7 @@
       <div class="desc">Sapa Vietnam</div>
     </div></th>
     <th><div class="gallery">
-        <img src="Sydney_Australia.jpg" alt="images/Vietnam.jpg" width="600" height="400">
+        <img src="images/Sydney_Australia.jpg" alt="images/Vietnam.jpg" width="600" height="400">
       <div class="desc">Syndney Australia</div>
     </div></th>
     <th><div class="gallery">
@@ -99,13 +146,13 @@
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
+    <img src="images/GrandCanyon.jpg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
+    <img src="images/Family.jpg" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
@@ -121,38 +168,11 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-<!--
-<div class="gallery">
-      <img src="images/Vietnam.jpg" alt="images/Vietnam.jpg" width="600" height="400">
-    <div class="desc">Ha Long Bay, Vietnam</div>
-  </div>
-  <br><br>
-  <div class="gallery">
-      <img src="images/GrandCanyon.jpg" alt="images/Vietnam.jpg" width="600" height="400">
-    <div class="desc">Grand Canyon</div>
-  </div>
-  <br><br>
-  <div class="gallery">
-      <img src="images/Family.jpg" alt="images/Vietnam.jpg" width="600" height="400">
-    <div class="desc">Family</div>
-  </div>
-  <br><br>
-  <div class="gallery">
-      <img src="images/sapa_vietnam.jpg" alt="images/Vietnam.jpg" width="600" height="400">
-    <div class="desc">Sapa Vietnam</div>
-  </div>
-  <br><br>
-  <div class="gallery">
-    <img src="images/Sydney_Australia.jpg" alt="images/Vietnam.jpg" width="600" height="400">
-  <div class="desc">Syndney Australia</div>
-</div>
-<br><br>
-<div class="gallery">
-    <img src="images/Vung_Tau.JPG" alt="images/Vietnam.jpg" width="600" height="400">
-  <div class="desc">Vung Tau Vietnam</div>
-</div> -->
+
 <br><br><br>
 </body>
+
+</div>
 
 <div id="footer">
   <a href="https://study.com/academy/lesson/vietnamese-culture-facts-food.html#:~:text=It%20is%20a%20nation%20with,smells%2C%20textures%2C%20and%20flavors." target="_blank" id="VNCultureUrl">Vietnamese Culture</a>
@@ -160,7 +180,5 @@
   <a href="https://vietnam.travel/home" id="VNTravelUrl">Travel Vietnam</a>
   <br />
  <a href="#container" id="backToTop">back to top</a>
-
 </div>
-
-</div>
+ 

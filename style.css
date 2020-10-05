@@ -33,6 +33,7 @@ p {
 
 header h1 {
     margin: 0;
+    background-color: #cbd18f
 }
 
 html, body {
@@ -58,7 +59,8 @@ head {
 
 h1 { 
   text-align: center;
-font-family: 'Lucidia Bright',Times, serif, Verdana, Arial;
+  font-family: 'Lucidia Bright',Times, serif, Verdana, Arial;
+  background-color: #cbd18f
  }
 
 h2 { 
@@ -75,6 +77,10 @@ h3 {
 
 body {
   background-color: #fbe6ad;
+}
+
+p {
+  border-style: inset;
 }
 
 * {box-sizing:border-box}

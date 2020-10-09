@@ -81,6 +81,7 @@ body {
 
 p {
   border-style: inset;
+  margin-top: 0.6em; margin-bottom: 0em;
 }
 
 * {box-sizing:border-box}
